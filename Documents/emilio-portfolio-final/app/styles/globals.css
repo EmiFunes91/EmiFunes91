@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- Base --- */
+body {
+  @apply scroll-smooth antialiased font-sans bg-gray-50 text-gray-900 dark:bg-gray-950 dark:text-white;
+  line-height: 1.6;
+}
+
+/* --- Tipografías --- */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold tracking-tight;
+}
+
+/* --- Modo claro específico --- */
+html:not(.dark) section {
+  @apply bg-white;
+}
+
+html:not(.dark) h1,
+html:not(.dark) h2,
+html:not(.dark) h3 {
+  @apply text-gray-900;
+}
+
+html:not(.dark) p,
+html:not(.dark) label {
+  @apply text-gray-700;
+}
+
+html:not(.dark) input,
+html:not(.dark) textarea,
+html:not(.dark) select {
+  @apply bg-white text-gray-900 border-gray-300 placeholder-gray-500 shadow-sm;
+}
+
+/* --- Modo oscuro ya definido, no se toca */
+.dark section {
+  @apply bg-transparent;
+}
+
+input, textarea, select {
+  @apply rounded-md border dark:border-gray-600 px-3 py-2 dark:bg-gray-800 dark:text-white;
+}
+
+input:focus, textarea:focus, select:focus {
+  @apply ring-2 ring-blue-500 border-transparent;
+}
+
+/* --- Botones --- */
+a.button,
+button {
+  @apply px-5 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-500 shadow-md transition;
+}
+
+button {
+  @apply focus:outline-none font-medium;
+}
+
+/* --- Otros estilos globales --- */
+section {
+  @apply transition-all duration-500;
+}
+
+.fade-in {
+  @apply opacity-0 translate-y-4 transition-opacity duration-700 ease-out;
+}
+.fade-in.appear {
+  @apply opacity-100 translate-y-0;
+}
+
+.nav-link-active {
+  @apply text-blue-600 dark:text-blue-400 font-semibold;
+}
