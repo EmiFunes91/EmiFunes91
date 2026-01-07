@@ -200,7 +200,7 @@ Modern **Next.js** application with enterprise-level optimizations.
 
 **Universidad Tecnológica Nacional (UTN)**  
 Technical University Degree in Programming  
-*Since 2023 — Remote-friendly*
+*Since 2023*
 
 ---
 
