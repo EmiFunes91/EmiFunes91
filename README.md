@@ -1,134 +1,221 @@
-# GestiónPro
+<h1 align="center">Emilio Funes</h1>
 
-GestiónPro es una aplicación web integral diseñada para la gestión eficiente de cajeros, empleados, usuarios y productos en una entidad comercial. La aplicación proporciona una interfaz intuitiva que permite a los administradores controlar el acceso y realizar operaciones sobre los datos de manera organizada y segura.
+<p align="center">
+  <strong>Backend Engineer | SaaS Builder | API & Data Systems Specialist</strong>
+</p>
 
-## Objetivos
+<p align="center">
+  🇦🇷 Remote from Argentina
+</p>
 
-- 🛠️ Proveer una plataforma intuitiva y eficiente para la gestión de empleados, cajeros, usuarios y productos.
-- 🔐 Facilitar la asignación y control de permisos y roles de los usuarios.
-- 📧 Automatizar el envío de correos electrónicos para notificaciones importantes.
-- 📊 Proveer acceso a la información a través de una interfaz clara y accesible.
-- 💻 Asegurar la plataforma utilizando estándares de seguridad modernos.
+<p align="center">
+  <em>Building scalable, secure, and production-ready systems</em>
+</p>
 
-## Tecnologías Utilizadas
+<p align="center">
+  <a href="https://www.linkedin.com/in/emilio-funes-8b140b21a/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://emiliofunes-portfolio.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio">
+  </a>
+</p>
 
-- **Spring Boot**: Para el desarrollo del backend y la creación de servicios RESTful.
-- **Thymeleaf**: Motor de plantillas para la generación de vistas dinámicas en el frontend.
-- **PostgreSQL**: Base de datos relacional para la gestión de la información.
-- **Maven**: Herramienta para la gestión de dependencias y construcción del proyecto.
-- **Spring Security**: Sistema de seguridad para la autenticación y autorización de usuarios.
-- **JWT (JSON Web Tokens)**: Para la autenticación segura basada en tokens.
-- **JavaMailSender**: Biblioteca utilizada para el envío automatizado de correos electrónicos.
-- **Bootstrap**: Framework para el diseño de una interfaz moderna y responsiva.
-- **CSS Personalizado**: Ajustes adicionales de estilo con colores y diseño personalizados.
+---
 
-## Requisitos del Sistema
+## 👨‍💻 About
 
-- **Java**: JDK 17 o superior
-- **Spring Boot**: Versión 2.7 o superior
-- **PostgreSQL**: Versión 12 o superior
-- **Maven**: Herramienta de gestión de proyectos
-- **Navegador**: Cualquier navegador moderno (Chrome, Firefox, Edge)
+I'm a **Backend Engineer** specializing in designing and building **enterprise-grade, production-ready systems**. I focus on creating scalable architectures that solve real business problems while maintaining high standards of security, reliability, and maintainability.
 
-## Instalación
+**Core Expertise:**
+- 🏗️ **System Architecture** — Clean, scalable backend designs
+- 🔐 **Security** — Authentication, authorization, and secure API design
+- 💳 **SaaS Platforms** — Subscription systems, billing, and multi-tenancy
+- 📊 **Data Systems** — Analytics pipelines and data-driven integrations
+- 🚀 **DevOps** — CI/CD, containerization, and cloud deployments
 
-1. **Descargar el Proyecto**: 
-   - Clonar el repositorio o descargar el archivo ZIP del código fuente.
-   
-2. **Configurar la Base de Datos**: 
-   - Crear una base de datos en PostgreSQL llamada `gestionpro`.
-   - Configurar las credenciales y la URL en el archivo `application.properties` o mediante variables de entorno.
+I transform complex technical challenges into **reliable, maintainable solutions** that stand the test of time.
 
-3. **Configuración de Correos**:
-   - Proveer las credenciales para el servicio de correo en `application.properties`, incluyendo el servidor SMTP, puerto, usuario y contraseña.
+---
 
-5. **Construcción del Proyecto**: 
-   - Utilizar Maven para compilar el proyecto y resolver dependencias con el comando `mvn clean install`.
+## 🚀 Current Focus
 
-6. **Ejecutar la Aplicación**: 
-   - Iniciar la aplicación desde la clase principal de Spring Boot (GestionProApplication.java).
+### **Private Enterprise SaaS Platform** (Founder & Lead Engineer)
 
-7. **Acceso a la Aplicación**: 
-   - Abrir el navegador y navegar a `http://localhost:8080` para acceder a la interfaz de usuario.
+Founder and lead engineer of a production-grade SaaS platform designed for **advanced analytics and forecasting** in energy and infrastructure environments.
 
-## Funcionalidades Principales
+**Platform Characteristics:**
+- **Architecture:** Multi-tenant SaaS with isolated data per tenant
+- **Security:** Role-based access control (RBAC) & secure authentication flows
+- **Data Processing:** Analytics pipelines and forecasting models
+- **Monetization:** Subscription-based (Starter / Pro / Enterprise tiers)
+- **Internationalization:** Multi-language support (EN / ES / FR)
+- **Infrastructure:** Production deployment with monitoring & alerting
+- **API Design:** RESTful, API-first architecture
 
-1. **Inicio de Sesión y Seguridad**:
-   
-   **Login Seguro**: 
-   - Autenticación de usuarios mediante un formulario seguro que valida credenciales de acceso.
+*Technical details and demos available upon request for potential collaborations.*
 
-   **Autorización Basada en Roles**: 
-   - Los usuarios son clasificados en diferentes roles (Administrador, Usuario) con distintos niveles de acceso.
+---
 
-   **Autenticación JWT**: 
-   - Los usuarios reciben tokens JWT al iniciar sesión, que se utilizan para mantener la sesión de forma segura.
+## 🛠️ Tech Stack
 
-   **Protección con Spring Security**: 
-   - Toda la aplicación está protegida contra accesos no autorizados y utiliza estándares modernos de seguridad para proteger las rutas de la API y los recursos sensibles.
+### **Languages**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-2. **Gestión de Empleados**:
-   
-   **Agregar, Editar y Eliminar Empleados**
-   - Los administradores pueden gestionar los datos de los empleados como nombre, apellido, DNI, correo electrónico y celular.
-   - Búsqueda de Empleados: La funcionalidad de búsqueda permite encontrar empleados fácilmente por nombre o correo electrónico.
-   - Permisos de Usuario: Solo los usuarios con los roles adecuados pueden realizar modificaciones sobre los empleados.
+### **Backend Frameworks**
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
-3. **Gestión de Cajeros**:
-   - Asignación de Rol de Cajero: Se permite a los administradores asignar empleados al rol de cajero, con permisos específicos.
-   - Edición de Cajeros: Se puede modificar el usuario, permisos y contraseña de un cajero.
-   - Eliminación de Cajeros: Opción para eliminar cajeros del sistema de forma segura, siempre que se confirme la acción.
+### **Databases**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-4. **Gestión de Usuarios**:
-   - Registro y Edición de Usuarios: Se permite el registro de nuevos usuarios, la edición de sus roles y la eliminación cuando sea necesario.
-   - Asignación de Roles: Los administradores pueden asignar roles específicos a los usuarios, como "Administrador" o "Usuario Básico".
+### **DevOps & Cloud**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-5. **Gestión de Productos**:
+### **Specializations**
+- 🔑 JWT & Token-based authentication
+- 🛡️ Role-Based Access Control (RBAC)
+- 🔔 Webhook handling & event-driven architectures
+- 💰 Stripe subscriptions & billing systems
+- 📡 RESTful & async API design
 
-   **Agregar, Editar y Eliminar Producto**
-   - Gestión completa de los productos, incluyendo nombre, categoría, precio, stock y la imagen del producto.
-   - Carga de Imágenes de Productos: Permite subir imágenes que se asocian a cada producto y se muestran en la lista de productos.
-   - Búsqueda de Productos: Funcionalidad para buscar productos por nombre, categoría o stock.
+---
 
-6. **Envío Automático de Correos**:
-   - Notificaciones de Usuario: Los usuarios reciben notificaciones automáticas por correo en eventos importantes, como el registro exitoso o actualizaciones importantes en sus cuentas.
-   - Soporte: La aplicación envía correos de soporte automatizados a los usuarios cuando ocurre algún error importante o solicitud de ayuda.
+## 💼 Featured Projects
 
+### **Stripe Subscription System** (Private Repository)
 
-7. **Buscar Elementos**:
-   - Utilizar las barras de búsqueda disponibles en cada gestión.
-  
-## Instrucciones de Uso
+Enterprise-grade subscription and billing system integrated into a production SaaS product.
 
-1. **Inicio de Sesión**:
-   - Ingresar al sistema con las credenciales de un usuario con permisos adecuados (Administrador o Usuario).
+**Implementation Highlights:**
+- Stripe Checkout integration with custom flow
+- Webhook handling (`checkout.session.completed`, `invoice.paid`, `customer.subscription.*`)
+- Automated renewals and plan upgrades/downgrades
+- Subscription lifecycle management
+- Zero manual intervention required
 
-2. **Acceder a las Gestiones**:
-   - Desde el Panel de Control, se puede acceder a las distintas áreas de gestión, como empleados, cajeros, usuarios o productos.
+*Full demo and technical documentation available privately upon request.*
 
-3. **Operaciones CRUD**:
-   - En cada módulo de gestión, se puede Agregar, Editar o Eliminar entradas como empleados, cajeros, usuarios o productos, utilizando los botones y formularios disponibles.
+---
 
-4. **Subida de Imágenes en Productos**:
-   - Al gestionar productos, se pueden agregar imágenes que se visualizarán directamente en la lista de productos.
+### **Smart Advisor API**
 
-5. **Notificaciones por Correo**:
-   - Los usuarios reciben correos automáticos tras registrarse o al modificar sus datos. Configurar correctamente los detalles del servidor de correo en `application.properties`.
+Production-ready **FastAPI + PostgreSQL** backend featuring intelligent Q&A capabilities.
 
-## Soporte de la Aplicación
+**Key Features:**
+- Intelligent conversation handling
+- Interaction history tracking
+- OpenAPI / Swagger documentation
+- Comprehensive error handling
+- Production deployment with monitoring
 
-Si tienes alguna pregunta o necesitas ayuda, puedes contactarnos a través del siguiente correo electrónico: [funesapps.soporte@gmail.com](mailto:funesapps.soporte@gmail.com).
+🔗 [View Repository](https://github.com/EmiFunes91/smart-advisor-api)
 
-## Repositorio de GitHub
+---
 
-Puedes encontrar el código fuente de la aplicación en el siguiente enlace: [Repositorio de GitHub - GestiónPro](https://github.com/EmiFunes91/adm-empleados).
+### **Store API**
 
-## Conclusión
+Enterprise-style REST API built with **Spring Boot & Laravel**.
 
-GestiónPro es una solución robusta, segura y eficiente para la gestión de empleados, cajeros, usuarios y productos en cualquier entidad comercial. La aplicación ofrece una experiencia de usuario intuitiva y está diseñada para ayudar a las organizaciones a gestionar sus operaciones de manera eficaz.
+**Architecture:**
+- JWT-based authentication
+- Role-Based Access Control (RBAC)
+- Secure CRUD operations
+- Clean architecture with service layer separation
 
-## Recomendaciones
+🔗 [View Repository](https://github.com/EmiFunes91/store)
 
-- 🔧 **Mantenimiento Regular**: Realizar mantenimientos periódicos de la base de datos y la aplicación para garantizar su correcto funcionamiento.
-- 📚 **Capacitación de Usuarios**: Proporcionar formación a los usuarios sobre las funcionalidades de la aplicación para maximizar su eficiencia.
-- 🔒 **Actualización de Seguridad**: Mantener actualizadas las dependencias y tecnologías utilizadas para garantizar la protección de la aplicación contra vulnerabilidades.
+---
+
+### **Portfolio Website**
+
+Modern **Next.js** application with enterprise-level optimizations.
+
+**Features:**
+- Internationalization (i18n)
+- Dark / light theme support
+- Responsive design
+- Performance optimization & SEO
+
+🔗 [Live Site](https://emiliofunes-portfolio.vercel.app)
+
+---
+
+## 🌟 Open Source Contributions
+
+### **Winter CMS** — Official Documentation Contributor
+
+- ✅ [PR #237](https://github.com/wintercms/docs/pull/237) — Clarified `register()` and `boot()` methods
+- Enhanced plugin lifecycle documentation
+- Added structured examples and common pitfalls
+- Successfully merged into official documentation
+
+🔍 Related Issue: [#228](https://github.com/wintercms/docs/issues/228)
+
+---
+
+## 📈 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=EmiFunes91&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmiFunes91&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmiFunes91&theme=tokyo-night&hide_border=true&bg_color=0D1117&title_color=58A6FF&line=58A6FF&point=58A6FF" alt="Contribution Graph" />
+</p>
+
+---
+
+## 💼 Available for Hire
+
+**Services:**
+- Backend & API development
+- SaaS architecture consulting
+- Stripe subscriptions & billing systems
+- Secure authentication & authorization flows
+- System design & technical consulting
+
+**Platforms:**
+- 🔵 [Upwork](https://www.upwork.com/freelancers/~01769709a6024bbe87?mp_source=share)
+- 🟣 [Workana](https://www.workana.com/freelancer/b527326eccb3b7a8964531467c6e382a)
+- 🟢 [Fiverr](https://es.fiverr.com/s/EgyNRwD)
+
+---
+
+## 🎓 Education
+
+**Universidad Tecnológica Nacional (UTN)**  
+Technical University Degree in Programming  
+*Since 2023 — Remote-friendly*
+
+---
+
+## 💬 Testimonial
+
+> *"I have done a few projects with Emilio, and I am always pleased with the results. What I appreciate most is his transparency, attention to detail, and the way he documents his work. I highly recommend his services."*  
+> — ⭐️ **sunshine0109** (Repeat Client, USA)
+
+---
+
+<p align="center">
+  <strong>Building systems that scale, secure, and deliver value.</strong>
+</p>
+
+<p align="center">
+  <a href="https://emiliofunes-portfolio.vercel.app">Portfolio</a> • 
+  <a href="https://www.linkedin.com/in/emilio-funes-8b140b21a/">LinkedIn</a>
+</p>
