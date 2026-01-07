@@ -32,7 +32,7 @@ I'm a **Backend Engineer** specializing in designing and building **enterprise-g
 - 🔐 **Security** — Authentication, authorization, and secure API design
 - 💳 **SaaS Platforms** — Subscription systems, billing, and multi-tenancy
 - 📊 **Data Systems** — Analytics pipelines and data-driven integrations
-- 🚀 **DevOps** — CI/CD, containerization, and cloud deployments
+- 🚀 **Delivery & Infrastructure** — CI/CD, containerization, and cloud deployments
 
 I transform complex technical challenges into **reliable, maintainable solutions** that stand the test of time.
 
