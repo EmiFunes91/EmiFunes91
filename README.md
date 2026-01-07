@@ -53,7 +53,7 @@ Founder and lead engineer of a production-grade SaaS platform designed for **adv
 - **Infrastructure:** Production deployment with monitoring & alerting
 - **API Design:** RESTful, API-first architecture
 
-*Technical details and demos available upon request for potential collaborations.*
+*Technical details and demos available upon request for serious collaborations.*
 
 ---
 
@@ -212,7 +212,7 @@ Technical University Degree in Programming
 ---
 
 <p align="center">
-  <strong>Building systems that scale, secure, and deliver value.</strong>
+  <strong>Building systems that scale, stay secure, and deliver real value.</strong>
 </p>
 
 <p align="center">
